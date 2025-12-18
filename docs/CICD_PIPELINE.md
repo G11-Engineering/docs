@@ -4,7 +4,7 @@
 
 The CI/CD pipeline is triggered on code changes and follows a 5-stage process:
 
-![GitHub Actions CI/CD Pipeline](./images/github-actions-pipeline.png)
+![GitHub Actions CI/CD Pipeline](../images/github-actions-pipeline.png)
 
 ### Stage 1: Trigger Pipeline
 - Activated on code change in repository

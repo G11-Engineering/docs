@@ -4,7 +4,7 @@
 
 The deployment follows a GitOps model with Helm and ArgoCD:
 
-![GitOps Deployment Flow](./images/gitops-deployment-flow.png)
+![GitOps Deployment Flow](../images/gitops-deployment-flow.png)
 
 ### Repository Organization
 - **Docker Hub**: References pushed Docker images from CI/CD pipeline

@@ -14,15 +14,15 @@ The G11 project is a blog application backed by 5 microservices, deployed on Kub
 ## Quick Links
 
 ### Core Documentation
-- **[Architecture](ARCHITECTURE.md)** - System design, Kubernetes cluster, AWS infrastructure, and security measures
-- **[Microservices](MICROSERVICES.md)** - Service overview, tech stack, and development environment
-- **[CI/CD Pipeline](CICD_PIPELINE.md)** - GitHub Actions workflow and build process
-- **[Deployment](DEPLOYMENT.md)** - ArgoCD, GitOps, and rollout strategies
-- **[Kubernetes](KUBERNETES.md)** - K8s architecture, Helm charts, and GitOps patterns
-- **[Infrastructure](INFRASTRUCTURE.md)** - AWS Terraform setup and scaling
+- **[Architecture](docs/ARCHITECTURE.md)** - System design, Kubernetes cluster, AWS infrastructure, and security measures
+- **[Microservices](docs/MICROSERVICES.md)** - Service overview, tech stack, and development environment
+- **[CI/CD Pipeline](docs/CICD_PIPELINE.md)** - GitHub Actions workflow and build process
+- **[Deployment](docs/DEPLOYMENT.md)** - ArgoCD, GitOps, and rollout strategies
+- **[Kubernetes](docs/KUBERNETES.md)** - K8s architecture, Helm charts, and GitOps patterns
+- **[Infrastructure](docs/INFRASTRUCTURE.md)** - AWS Terraform setup and scaling
 
 ### Getting Started
-- **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Step-by-step deployment instructions
+- **[Deployment Guide](docs/DEPLOYMENT_GUIDE.md)** - Step-by-step deployment instructions
 
 ## Architecture Overview
 
@@ -57,7 +57,6 @@ The platform comprises the following microservices:
 | **Helm Charts** | [g11-helm-charts](https://github.com/G11-Engineering/g11-helm-charts) |
 | **Kubernetes Charts** | [g11-k8s-charts](https://github.com/G11-Engineering/g11-k8s-charts) |
 | **Documentation** | [docs](https://github.com/G11-Engineering/docs) |
-| **Workflows** | [.github](https://github.com/G11-Engineering/.github) |
 
 ## Security Features
 
@@ -80,9 +79,9 @@ Code Change → GitHub Actions (Build & Test)
 
 ## Getting Help
 
-- Check [Architecture](ARCHITECTURE.md) for system design questions
-- See [Deployment Guide](DEPLOYMENT_GUIDE.md) for deployment steps
-- Review [CI/CD Pipeline](CICD_PIPELINE.md) for build process details
+- Check [Architecture](docs/ARCHITECTURE.md) for system design questions
+- See [Deployment Guide](docs/DEPLOYMENT_GUIDE.md) for deployment steps
+- Review [CI/CD Pipeline](docs/CICD_PIPELINE.md) for build process details
 - Explore individual repository READMEs for service-specific information
 
 ---

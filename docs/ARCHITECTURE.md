@@ -4,7 +4,7 @@ Comprehensive system architecture covering Kubernetes cluster setup, AWS infrast
 
 ## Kubernetes Cluster Architecture
 
-![Kubernetes Cluster Architecture](./images/kubernetes-cluster-architecture.png)
+![Kubernetes Cluster Architecture](../images/kubernetes-cluster-architecture.png)
 
 ### Istio Service Mesh
 - Ingress Gateway: Exposes services using nodeport, handles all ingress traffic

@@ -4,7 +4,7 @@
 
 Infrastructure as Code using Terraform for automated provisioning and management of AWS resources.
 
-![AWS Infrastructure Architecture](./images/aws-infrastructure-diagram.png)
+![AWS Infrastructure Architecture](../images/aws-infrastructure-diagram.png)
 
 ### Domain & DNS
 - **Porkbun**: External domain registrar
